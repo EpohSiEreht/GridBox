@@ -1,0 +1,20 @@
+{
+  "name": "projectgrid",
+  "version": "1.0.0",
+  "description": "A simple, responsive, and nestable grid layout based on CSS Grid Layout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "layout"
+  ],
+  "author": "David Lee <iamdaviddlee@gmail.com> (http://www.iamdavidlee.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EpohSiEreht/ProjectGrid/issues"
+  },
+  "homepage": "https://github.com/EpohSiEreht/ProjectGrid#readme"
+}
