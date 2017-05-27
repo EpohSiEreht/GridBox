@@ -1,5 +1,5 @@
 {
-  "name": "projectgrid",
+  "name": "gridbox",
   "version": "1.0.0",
   "description": "A simple, responsive, and nestable grid layout based on CSS Grid Layout.",
   "main": "index.js",
