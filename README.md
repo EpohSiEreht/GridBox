@@ -1,6 +1,6 @@
 GridBox
 ===========
-A mobile first fluid 12-column grid layout based on CSS Grid Layout. It uses the same syntax as Bootstrap's Grid system so you can switch with ease. 
+A responsive 12-column grid layout based on CSS Grid Layout. It uses the same syntax as Bootstrap's Grid system so you can switch with ease. 
 
 ## What is CSS Grid Layout?
 CSS Grid Layout is a two-dimensional layout system, optimized for customizable column and row layouts. No more floats, inline-block, and table grid setups!
@@ -50,6 +50,11 @@ CSS Grid Layout is a two-dimensional layout system, optimized for customizable c
 | Opera Mobile        | NO                      |  |
 | Opera Mini          | NO                      |  |
 > Note: Partial support for IE and Edge is based on an older specification of CSS Grid from 2011. 
+
+## Features for the Future
+- Add offset column classes.
+- Add design guidelines for typography, forms, buttons, etc.
+- Add pre-built and reusable component layouts using the Flexbox Layout module.
 
 ## Resources
 - [CSS TRICKS - CSS Grid Layout](https://css-tricks.com/snippets/css/complete-guide-grid)
