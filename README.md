@@ -12,6 +12,12 @@ CSS Grid Layout is a two-dimensional layout system, optimized for customizable c
 - Content should be placed within columns.
 - Any non-row/column class divs will automatically fill the entire row or column width.
 - Gutters are set to 1rem (16px) as default and go up to 1.5rem (24px) on screens larger than 960px wide.
+- Breakpoints: 
+    - 0px - 599px (col-xs-\*)
+    - 600px - 959px (col-sm-\*)
+    - 960px - 1279px (col-md-\*)
+    - 1280px - 1919px (col-lg-\*)
+    - 1920px and above (col-xl-\*)
 
 ## Example
 
@@ -51,7 +57,7 @@ CSS Grid Layout is a two-dimensional layout system, optimized for customizable c
 | Opera Mini          | NO                      |  |
 > Note: Partial support for IE and Edge is based on an older specification of CSS Grid from 2011. 
 
-## Features for the Future
+## Future Features++
 - Add offset column classes.
 - Add design guidelines for typography, forms, buttons, etc.
 - Add pre-built and reusable component layouts using the Flexbox Layout module.
