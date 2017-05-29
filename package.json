@@ -2,7 +2,11 @@
   "name": "gridbox",
   "version": "1.0.0",
   "description": "A responsive 12-column grid layout based on CSS Grid Layout.",
-  "main": "gridbox.css",
+  "main": "index.js",
+  "files": [
+    "gridbox.css",
+    "gridbox.min.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
