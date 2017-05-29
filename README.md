@@ -21,7 +21,7 @@ import "gridbox/gridbox.css"
 
 You can also use this link tag and add it to your head tag
 ```html
-<link rel="stylesheet" href="https://unpkg.com/gridbox@1.0.1/gridbox.css">
+<link rel="stylesheet" href="https://unpkg.com/gridbox/gridbox.css">
 ```
 
 ## Guidelines
