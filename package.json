@@ -1,6 +1,6 @@
 {
   "name": "gridbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A responsive 12-column grid layout based on CSS Grid Layout.",
   "main": "index.js",
   "files": [
