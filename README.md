@@ -1,14 +1,15 @@
 GridBox
 ===========
-A responsive 12-column grid layout based on CSS Grid Layout. It uses the same syntax as Bootstrap's Grid system so you can switch with ease. 
+A responsive, fluid 12-column css grid framework based on CSS Grid Layout. It is nestable and uses the same syntax as Bootstrap's Grid system so you can switch with ease. 
 
 ## What is CSS Grid Layout?
 CSS Grid Layout is a two-dimensional layout system, optimized for customizable column and row layouts. No more floats, inline-block, and table grid setups!
 
 ## Introduction
 - Rows should be directly placed within a .container(fixed-width) or .container-fluid (full-width)
+- Nesting should be done by adding a row class within a column class.
+- .col-xs-* should not be nested under a row that has a .col-xs-* parent.
 - Columns should not be directly placed as a child of another column.
-- .col-xs-* should not be nested under a row that has a .col-xs-* parent. 
 - Content should be placed within columns.
 - Any non-row/column class divs will automatically fill the entire row or column width.
 - Gutters are set to 1rem (16px) as default and go up to 1.5rem (24px) on screens larger than 960px wide.
