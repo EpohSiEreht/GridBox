@@ -5,7 +5,26 @@ A responsive, fluid 12-column css grid framework based on CSS Grid Layout. It is
 ## What is CSS Grid Layout?
 CSS Grid Layout is a two-dimensional layout system, optimized for customizable column and row layouts. No more floats, inline-block, and table grid setups!
 
-## Introduction
+## Getting Started
+NPM
+```$xslt
+npm install --save gridbox
+```
+Import
+```$xslt
+// ES5
+require('gridbox/gridbox.css')
+
+// ES6
+import "gridbox/gridbox.css"
+```
+
+You can also use this link tag and add it to your head tag
+```$xslt
+<link rel="stylesheet" href="https://unpkg.com/gridbox@1.0.1/gridbox.css">
+```
+
+## Guidelines
 - Rows should be directly placed within a .container(fixed-width) or .container-fluid (full-width)
 - Nesting should be done by adding a row class within a column class.
 - .col-xs-* should not be nested under a row that has a .col-xs-* parent.
@@ -41,6 +60,9 @@ CSS Grid Layout is a two-dimensional layout system, optimized for customizable c
   </div>
 </div>
 ```
+
+## Demo
+Codepen demo: [https://codepen.io/epohsiereht/pen/aWPpZd](https://codepen.io/epohsiereht/pen/aWPpZd)
 
 ## Browser Support
 | Browser             | Compatibility           | Version  |
