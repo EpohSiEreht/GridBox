@@ -7,11 +7,11 @@ CSS Grid Layout is a two-dimensional layout system, optimized for customizable c
 
 ## Getting Started
 NPM
-```$xslt
+```javascript
 npm install --save gridbox
 ```
 Import
-```$xslt
+```js
 // ES5
 require('gridbox/gridbox.css')
 
@@ -20,7 +20,7 @@ import "gridbox/gridbox.css"
 ```
 
 You can also use this link tag and add it to your head tag
-```$xslt
+```html
 <link rel="stylesheet" href="https://unpkg.com/gridbox@1.0.1/gridbox.css">
 ```
 
