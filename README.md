@@ -41,7 +41,7 @@ You can also use this link tag and add it to your head tag
 
 ## Example
 
-```
+```html
 <div class="container">
   <div class="row">
     <div class="col-md-6">col-md-6</div>
