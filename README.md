@@ -1,9 +1,12 @@
 GridBox
 ===========
-A responsive, fluid 12-column css grid framework based on CSS Grid Layout. It is nestable and uses the same syntax as Bootstrap's Grid system so you can switch with ease. 
+A responsive, fluid 12-column css grid framework based on CSS Grid Layout module.
+- Nestable
+- Mobile First
+- Uses the same syntax as Bootstrap's grid system
 
 ## What is CSS Grid Layout?
-CSS Grid Layout is a two-dimensional layout system, optimized for customizable column and row layouts. No more floats, inline-block, and table grid setups!
+CSS Grid Layout is a two-dimensional layout system, optimized for customizable column and row layouts.
 
 ## Getting Started
 NPM
@@ -32,6 +35,7 @@ You can also use this link tag and add it to your head tag
 - Content should be placed within columns.
 - Any non-row/column class divs will automatically fill the entire row or column width.
 - Gutters are set to 1rem (16px) as default and go up to 1.5rem (24px) on screens larger than 960px wide.
+- Columns go from 1 to 12.
 - Breakpoints: 
     - 0px - 599px (col-xs-\*)
     - 600px - 959px (col-sm-\*)
@@ -82,8 +86,9 @@ Codepen demo: [https://codepen.io/epohsiereht/pen/aWPpZd](https://codepen.io/epo
 
 ## Future Features++
 - Add offset column classes.
+- Add vertical and horizontal alignment classes.
 - Add design guidelines for typography, forms, buttons, etc.
-- Add pre-built and reusable component layouts using the Flexbox Layout module.
+- Add pre-built and reusable component layouts using CSS Grid and Flexbox Layout modules.
 
 ## Resources
 - [CSS TRICKS - CSS Grid Layout](https://css-tricks.com/snippets/css/complete-guide-grid)
