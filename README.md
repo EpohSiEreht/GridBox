@@ -34,7 +34,7 @@ Or you can use this CDN and add it in your head tag
 - Content should be placed within columns unless you are nesting child columns.
 - Any child div of within the gridbox container will default to the full width of the parent.
 - Gutters are set to 1rem (16px) as default and go up to 1.5rem (24px) on screens larger than 960px wide.
-- Use <header> for the header, <main> for the main content body, and <footer> for the footer.
+- Use \<header> for the header, \<main> for the main content body, and \<footer> for the footer.
 - Columns go from 1 to 12.
 - Breakpoints: 
     - 0px - 599px (col-xs-\*)
@@ -70,7 +70,7 @@ Or you can use this CDN and add it in your head tag
 Codepen demo for v2: [https://codepen.io/epohsiereht/pen/aWPpZd](https://codepen.io/epohsiereht/pen/wdLQpM)
 
 ## Differences between v1 and v2
-Version 1 followed the same syntax as Bootstrap. After receiving feedback from Rachel Andrew, I realized that Grid Layout is about semantic class names rather than presentational class names. So I removed the row wrapper and opted to just add a sub-items class along with the column class to set up nested columns.
+Version 1 followed the same syntax as Bootstrap. After receiving feedback, I realized that Grid Layout is about semantic class names rather than presentational class names. So I removed the row wrapper and opted to just add a sub-items class along with the column class to set up nested columns.
 1. Removed the row class wrapper.
 2. To nest, you just need to add .sub-items class along with the column class.
 3. Added grids for \<header>, \<main>, and \<footer> tags.
